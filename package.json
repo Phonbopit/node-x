@@ -1,0 +1,19 @@
+{
+  "name": "node-x",
+  "version": "1.0.0",
+  "description": "Node.js + Express.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node.js",
+    "Express.js"
+  ],
+  "author": "Chai Phonbopit",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.10.4",
+    "gulp": "^3.8.10"
+  }
+}
