@@ -11,3 +11,5 @@ based on this course [Building a Website with Node.js and Express.js with Ray Vi
 - Create simple routes.
 - Use EJS Template engine.
 - Use Partials Template
+- Use Mocha Testing Framework
+- Use Chai & Supertest
