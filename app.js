@@ -5,20 +5,17 @@ app.set('view engine', 'ejs');
 //app.set('views', __dirname + '/views');
 
 app.get('/', function(req, res) {
-	res.render('default');
+	res.render('default', {
+		title: 'This is default route'
+	});
 });
 
 app.get('/me', function(req, res) {
 	res.send('Chai');
 });
 
-app.get('/who/:name', function(req, res) {
-	var name = req.params.name;
-	res.send('<h1>Hello xxxxx</h1> ' + name);
-});
-
 app.get('*', function(req, res) {
-	res.send("ASFSDFSDFDF");
+	res.send("Bad Route! :(");
 });
 
 var server = app.listen(3000, function() {
