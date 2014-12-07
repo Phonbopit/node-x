@@ -4,6 +4,7 @@ var app = express();
 app.set('view engine', 'ejs');
 //app.set('views', __dirname + '/views');
 
+
 app.get('/', function(req, res) {
 	console.log(__dirname);
 	res.render('default', {
