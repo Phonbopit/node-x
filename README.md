@@ -13,3 +13,10 @@ based on this course [Building a Website with Node.js and Express.js with Ray Vi
 - Use Partials Template
 - Use Mocha Testing Framework
 - Use Chai & Supertest
+
+
+
+## Useful Links
+- [superagent](http://visionmedia.github.io/superagent/)
+- [Chai.js](http://chaijs.com/guide/)
+- [Mocha.js](http://mochajs.org/)
